@@ -1,0 +1,5 @@
+The data we input is done in the form of (timesteps,input_features) to the RNN
+RNN is similar to ANN with 2 major differences:-
+1)We do not feed the whole i/p to our RNN at once.at t=1 we i/p the first letter of the first example then get the o/p then at t=2 we i/p the second letter and so on.
+2)ANN are feed forward neural network i.e info moves in the forward direction only but in RNN,there is a concept of state i.e the hidden layer sends a feedback back to 
+  the i/p layers.
